@@ -1,12 +1,10 @@
-package design.patterns;
+package design.patterns.singleton;
 
 public class SingletonLazy {
 
     private static SingletonLazy instancia;
 
-    private SingletonLazy() {
-        super();
-    }
+    private SingletonLazy() {super();}
 
     public static SingletonLazy getInstancia () {
         if (instancia == null) {

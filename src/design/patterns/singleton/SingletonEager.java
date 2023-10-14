@@ -1,4 +1,4 @@
-package design.patterns;
+package design.patterns.singleton;
 
 public class SingletonEager {
     private static SingletonEager instancia = new SingletonEager();
